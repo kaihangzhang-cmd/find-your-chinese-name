@@ -66,6 +66,14 @@ There are eight poses, each lasting 90 milliseconds, so one turn lasts about 0.7
 
 In this version, Find My Name shows the results immediately. The page-turn animation is used on the cover and when changing word batches.
 
+## Screenshots
+
+### Welcome screen
+
+![Welcome screen](welcome.png)
+
+The welcome screen shows an animated book. Click **Start** to begin choosing words for your Chinese name.
+
 ## Setup
 
 1. Install Processing 4.4.6 and a compatible Python Mode. Other versions are not guaranteed to work.
