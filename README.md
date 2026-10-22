@@ -81,6 +81,12 @@ The welcome screen shows an animated book. Click **Start** to begin choosing wor
 
 Choose two words that describe your preferred personality, meaning or style. Click **Show Another Five** to explore more words, or **Find My Name** to see matching names.
 
+### Name suggestions
+
+![Name suggestions](results.png)
+
+The results screen shows five suggested Chinese given names with pinyin, English meanings and matching words. Click **Back** to return to your selections, or **Start Again** to start over.
+
 ## Setup
 
 1. Install Processing 4.4.6 and a compatible Python Mode. Other versions are not guaranteed to work.
