@@ -97,7 +97,7 @@ The results screen shows five suggested Chinese given names with pinyin, English
 
 4. Click Run.
 
-Keep `README.md` at the repository root, alongside the sketch folder. All word and name data are included in the `.pyde` file.
+All word and name data are included in the `.pyde` file.
 
 This is a Processing Python Mode sketch not a standalone Python 3 script. Uses the standard-library modules `random`, `sys` and `traceback`. It requires no extra sketch libraries or external assets.
 
