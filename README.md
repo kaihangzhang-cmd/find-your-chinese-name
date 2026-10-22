@@ -26,13 +26,13 @@ The interface is English. For each suggested name, the following are given: Chin
 
 ### 1. Processing Python Mode and mouse interaction
 
-The project uses Processing 4.4.6 with Python Mode, the environment reported working during development. Buttons and cards are drawn with rectangles. The program checks the mouse position to identify clicks and highlights enabled buttons when the mouse moves over them.
+The project is running Processing version 4.4.6 using Python Mode, the environment reported to work during development. Buttons and cards are drawn as rectangles. The program checks the mouse position for clicks and highlights buttons when the mouse is over them. 
 
 The `page` variable controls the cover, selection page, and results page.
 
 ### 2. Lists, dictionaries, and name matching
 
-The source file contains 15 preference words and 30 name records. Each name has tags. The program compares the two selected words with these tags and counts the matches:
+Source file has 15 preference words and 30 name records. Every name has tags. The program then compares the two words selected to these tags, and counts the matches: 
 
 ```python
 matched = [word for word in selected if word in item["tags"]]
@@ -44,7 +44,7 @@ When changing word batches, the program excludes the previous batch and selected
 
 ### 3. Drawing the book and timing the animation
 
-The book is drawn with rectangles, lines, and an ellipse. A four-sided shape represents the turning page. No downloaded book image, GIF, or sprite sheet is used.
+The book consists of rectangles, lines and an ellipse. A four sided shape . The turning page . no downloaded book image, GIF or sprite sheet is used. 
 
 `cos()` moves the page edge from right to left, and `sin()` raises and lowers it. The animation uses elapsed time:
 
@@ -69,13 +69,16 @@ In this version, Find My Name shows the results immediately. The page-turn anima
 ## Setup
 
 1. Install Processing 4.4.6 and a compatible Python Mode. Other versions are not guaranteed to work.
+
 2. Put `Find_Your_Chinese_Name4.pyde` inside a folder called `Find_Your_Chinese_Name4`.
+
 3. Open the sketch in Processing and check that the selected mode is Python.
+
 4. Click Run.
 
 Keep `README.md` at the repository root, alongside the sketch folder. All word and name data are included in the `.pyde` file.
 
-This is a Processing Python Mode sketch, not a standalone Python 3 script. The standard-library modules `random`, `sys`, and `traceback` are used. No additional sketch libraries or external assets are required.
+This is a Processing Python Mode sketch not a standalone Python 3 script. Uses the standard-library modules `random`, `sys` and `traceback`. It requires no extra sketch libraries or external assets.
 
 The default font is Microsoft YaHei. If Chinese characters appear as boxes, change `FONT_NAME` to an installed Chinese font. For example, PingFang SC can be used on a Mac where it is available.
 
@@ -86,11 +89,11 @@ If opening the sketch fails, create a blank Python Mode sketch and paste the com
 1. Click **Start** to enter the selection page.
 2. Click a word card to select it. Click it again to deselect it.
 3. Click **Show Another Five** to browse more words. Your existing selections are kept.
-4. Choose exactly two words, then click **Find My Name**.
+4. Click Find My Name, selecting exactly two words.
 5. Read the five suggestions and compare their meanings and matching words.
 6. Click **Back** to return with your selections, or **Start Again** to clear everything and return to the cover.
 
-Use **Clear selection** to remove all selected words, including ones no longer shown in the current batch.
+To clear all selected words, including words not shown in the current batch, select Clear selection.
 
 ## Project Status
 
@@ -121,7 +124,7 @@ The following Processing Python Mode documentation explains the drawing, movemen
 
 [Anatomy of a page-flip animation by Mark Pospesel](https://mpospese.com/2012/05/23/anatomy-of-a-page-flip-animation/) was found later as a reference for comparing page-turn principles. The existing code was not adapted from that article.
 
-The implementation was drafted and revised with conversational programming assistance. The documentation above explains relevant techniques; it is not the source of the complete project code.
+The implementation was written and edited with conversational programming help . The documentation above describes relevant techniques but it is not the source of the full project code.
 
 This README follows the general structure of my earlier [poem_buttem project](https://github.com/kaihangzhang-cmd/kaihang-s-a2git), with guidance from [How to write a good README](https://bulldogjob.com/readme/how-to-write-a-good-readme-for-your-github-project) and the [README cheatsheet](https://github.com/ritaly/README-cheatsheet).
 
