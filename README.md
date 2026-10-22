@@ -75,6 +75,12 @@ In this version, Find My Name shows the results immediately. The page-turn anima
 
 The welcome screen shows an animated book. Click **Start** to begin choosing words for your Chinese name.
 
+### Word selection
+
+![Word selection](selection.png)
+
+Choose two words that describe your preferred personality, meaning or style. Click **Show Another Five** to explore more words, or **Find My Name** to see matching names.
+
 ## Setup
 
 1. Install Processing 4.4.6 and a compatible Python Mode. Other versions are not guaranteed to work.
