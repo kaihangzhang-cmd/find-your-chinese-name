@@ -16,11 +16,11 @@
 
 ## General Information
 
-My project is an interactive Chinese name finder made with Processing Python Mode for my UTS Creative Coding project.
+I made an interactive Chinese name finder using Processing Python Mode for my UTS Creative Coding project.
 
-Choosing a Chinese name can be difficult for people who do not understand the characters or their meanings. This project lets users explore names by choosing words that matter to them, such as Calm, Creative, Nature, or Hope.
+For people who do not understand the characters or their meanings, choosing a Chinese name can be difficult. With this project, users can explore names by selecting words that matter to them, like Calm, Creative, Nature or Hope.
 
-The interface is in English. Each suggested name includes Chinese characters, pinyin, English explanations, and a list of matching words. The book animation supports the idea of opening a book and discovering a name.
+The interface is English. For each suggested name, the following are given: Chinese characters, pinyin, English explanations and a list of matching words. This book animation reinforces the concept of opening a book and discovering a name.
 
 ## Technologies Used
 
